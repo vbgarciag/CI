@@ -111,6 +111,8 @@ class CI_Cache_redis extends CI_Driver
 
 		$this->_redis = new Redis();
 
+		
+
 		try
 		{
 			if ($config['socket_type'] === 'unix')
